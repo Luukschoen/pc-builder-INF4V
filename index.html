@@ -2,7 +2,8 @@
    <head>
     <title>PC Builder project 5/6</title>
     <meta name='viewport' content='width=device-width,initial-scale=1'>
-    <link rel="stylesheet" href="scss/main.css">    
+    <link rel="stylesheet" href="scss/main.css"> 
+    <link rel="stylesheet" href="scss/bootstrap.min.css">   
   </head>
   
   <body ng-app="app">
@@ -12,7 +13,7 @@
     <div ng-include="'templates/header/header.html'"></div>
 
       <!-- this is where we will inject our content -->
-      <div ui-view autoscroll="true" class="anchorfix"></div>
+      <div ui-view autoscroll="true" class="content"></div>
 
       <!-- this is where we will inject our footer -->
     <div ng-include="'templates/footer/footer.html'"></div>
