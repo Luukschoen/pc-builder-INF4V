@@ -3,11 +3,13 @@
 
 <h2>{{ headlines }}</h2>
 
-<p ng-repeat="object in objects">
-		naam: {{ object.naam }}</br>
-		punten: {{ object.points }}
+<p ng-repeat="case in cases">
+		naam: {{ case.title }}</br>
+		link naar het product: {{ case.link }}</br>
+		vooraad: {{ case.stock }}</br>
+		prijs: {{ case.price }}
 </p>
 
 <p>zo ziet de structuur eruit (beetje het API idee van objecten)</p>
-<pre>{{ objects | json }}</pre>
+<pre>{{ cases | json }}</pre>
 

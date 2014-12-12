@@ -56,3 +56,13 @@ table {
 .content {
   padding: 30px;
   margin: 0 auto; }
+
+/* Styling for our sidemenu */
+#sidemenu {
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 360px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.8); }

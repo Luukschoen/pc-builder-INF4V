@@ -9,6 +9,10 @@ app.config(function($stateProvider, $urlRouterProvider){
       url: '/home',
       templateUrl: "templates/content/home.html"
     })
+    .state('builder', {
+      url: '/pc-builder',
+      templateUrl: "templates/content/builder.html"
+    })
 });
 
 
